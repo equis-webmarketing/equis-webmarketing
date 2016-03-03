@@ -75,6 +75,8 @@
 		</style>
 		<!-- reCaptcha -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!-- Google Analytics -->
+		<?php include_once("backend/vendor/analyticstracking.php") ?>
 	</head>
 	<body>
 
@@ -122,6 +124,24 @@
 									<h3>E-commerce</h3>
 									<p>Comercialización de tus productos y servicios a través de internet.</p>
 								</section>
+								<!-- web design -->
+								<section>
+									<span class="icon major fa-code"></span>
+									<h3>Diseño web</h3>
+									<p>Programación adaptativa para multiplataformas: PC, notebook, tablet, y móvil.</p>
+								</section>
+								<!-- community management -->
+								<section>
+									<span class="icon major fa-users"></span>
+									<h3>Community management</h3>
+									<p>Manejo de redes sociales, programación y desarrollo de contenidos.</p>
+								</section>
+								<!-- SEO -->
+								<section>
+									<span class="icon major fa-area-chart"></span>
+									<h3>Posicionamiento web y Seguimiento digital</h3>
+									<p>Colocación estratégica en las primeras páginas de buscadores web de forma orgánica y paga.</p>
+								</section>
 								<!-- branding -->
 								<section>
 									<span class="icon major fa-university"></span>
@@ -134,23 +154,11 @@
 									<h3>Imagen Digital corporativa</h3>
 									<p>Producimos imágenes y videos de tus productos y de la empresa.</p>
 								</section>
-								<!-- SEO -->
+								<!-- marketing -->
 								<section>
-									<span class="icon major fa-area-chart"></span>
-									<h3>Posicionamiento web y Seguimiento digital</h3>
-									<p>Colocación estratégica en las primeras páginas de buscadores web de forma orgánica y paga.</p>
-								</section>
-								<!-- community management -->
-								<section>
-									<span class="icon major fa-users"></span>
-									<h3>Community management</h3>
-									<p>Manejo de redes sociales, programación y desarrollo de contenidos.</p>
-								</section>
-								<!-- web design -->
-								<section>
-									<span class="icon major fa-code"></span>
-									<h3>Diseño web</h3>
-									<p>Programación adaptativa para multiplataformas: PC, notebook, tablet, y móvil.</p>
+									<span class="icon major fa-balance-scale"></span>
+									<h3>Estrategias de marketing y comercialización</h3>
+									<p>Planeamiento operativo de marketing mix: producto, distribución, precio y promoción.</p>
 								</section>
 								<!-- projects -->
 								<section>
@@ -158,19 +166,6 @@
 									<h3>Formulación de proyectos</h3>
 									<p>Asesoramiento y acompañamiento de la idea al negocio, búsqueda de financiamiento y estrategias de presentación de proyectos.</p>
 								</section>
-								<!-- marketing -->
-								<section>
-									<span class="icon major fa-balance-scale"></span>
-									<h3>Estrategias de marketing y comercialización</h3>
-									<p>Planeamiento operativo de marketing mix: producto, distribución, precio y promoción.</p>
-								</section>
-								<!-- digital tracking 
-								<section>
-									<span class="icon major fa-area-chart"></span>
-									<h3>Seguimiento digital</h3>
-									<p>Seguimiento digital de la marca.</p>
-								</section>
-								-->
 								<!-- events & training -->
 								<section>
 									<span class="icon major fa-calendar"></span>
@@ -183,6 +178,13 @@
 									<h3>Hosting</h3>
 									<p>Servicio de alojamiento acorde a las necesidades del cliente.</p>
 								</section>
+								<!-- digital tracking 
+								<section>
+									<span class="icon major fa-area-chart"></span>
+									<h3>Seguimiento digital</h3>
+									<p>Seguimiento digital de la marca.</p>
+								</section>
+								-->
 							</div>
 							<!--
 							<ul class="actions">
@@ -265,9 +267,17 @@
 												<label for="subject">Motivo *</label>
 												<div class="select-wrapper">
 													<select name="subject" id="subject" required="true">
-														<option value="">- Motivo -</option>
-														<option value="Presupuesto">Presupuesto</option>
-														<option value="Otros">Otros</option>
+														<option value="" selected>- Motivo -</option>
+														<option value="Informacion general">Información general</option>
+														<option value="E-commerce">E-commerce</option>
+														<option value="Diseño web">Diseño web</option>
+														<option value="Community management">Community management</option>
+														<option value="Posicionamiento web y Seguimiento digital">Posicionamiento web y Seguimiento digital</option>
+														<option value="Branding profesional">Branding profesional</option>
+														<option value="Imagen Digital corporativa">Imagen Digital corporativa</option>
+														<option value="Estrategias de marketing y comercialización">Estrategias de marketing y comercialización</option>
+														<option value="Formulación de proyectos">Formulación de proyectos</option>
+														<option value="Eventos y capacitaciones">Eventos y capacitaciones</option>
 													</select>
 												</div>
 											</div>
