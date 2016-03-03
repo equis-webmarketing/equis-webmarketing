@@ -1,6 +1,10 @@
 jsconfig.json
 typings
-backend
 node_modules
 .vscode
 
+# --- IMPORTANTE!!! -----------------------------------
+# NO PUSHEAR A GITHUB LA PARTE PRIVADA DEL SITIO ------
+# NEVER PUSH TO GITHUB THE PRIVATE PART OF THE SITE ---
+backend
+# -----------------------------------------------------

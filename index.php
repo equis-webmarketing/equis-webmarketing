@@ -278,6 +278,7 @@
 														<option value="Estrategias de marketing y comercialización">Estrategias de marketing y comercialización</option>
 														<option value="Formulación de proyectos">Formulación de proyectos</option>
 														<option value="Eventos y capacitaciones">Eventos y capacitaciones</option>
+														<option value="Hosting">Hosting</option>
 													</select>
 												</div>
 											</div>
